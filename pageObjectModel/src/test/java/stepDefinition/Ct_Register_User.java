@@ -11,6 +11,8 @@ import pageObject.PageSignUp_Login_Object;
 
 public class Ct_Register_User {
 	
+	// Modification légère pour test webhook GitHub avec Jenkins - 2025-06-07
+
 	  WebDriver driver = SetUp.driver;
 	  PageHome_Products_Object home = new PageHome_Products_Object(driver);
 	  PageSignUp_Login_Object sign = new PageSignUp_Login_Object (driver);
