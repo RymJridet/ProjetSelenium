@@ -68,8 +68,12 @@ public class PageHome_Products_Object {
 	}
 	
 	public void ajouter_le_premier_produit() {
-		bt_add1.click();
-	}
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    WebElement element = wait.until(ExpectedConditions.elementToBeClickable(bt_add1));
+    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+    element.click();
+}
+
 	
 	public void continue_le_shopping() {
 		bt_continue_shopping.click(); 
