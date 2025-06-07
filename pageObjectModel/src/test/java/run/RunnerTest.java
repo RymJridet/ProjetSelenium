@@ -17,6 +17,6 @@ import io.cucumber.junit.CucumberOptions;
 		plugin = {"pretty","html:target/cucumber-report.html","json:target/cucumber-reportJson","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 		)
 
-public class Runner {
+public class RunnerTest {
 
 }
