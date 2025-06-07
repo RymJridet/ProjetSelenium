@@ -10,7 +10,7 @@ import pageObject.PageCart_ChekOut_Object;
 import pageObject.PageHome_Products_Object;
 
 public class Ct_Register_User12 {
-	// update
+	
 	WebDriver driver = SetUp.driver;
 	PageHome_Products_Object home = new PageHome_Products_Object(driver);
 	PageCart_ChekOut_Object  cart = new PageCart_ChekOut_Object(driver);
