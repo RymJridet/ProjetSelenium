@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class) 
 @CucumberOptions(
-		tags = "@connect", 
+		tags = "", 
 		glue = {"stepDefinition" , "hooks"},
 		features = "src/test/features/testCasesAutomationExercices" ,
 		monochrome = true , 
